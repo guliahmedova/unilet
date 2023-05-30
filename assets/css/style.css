@@ -302,6 +302,134 @@ section {
 .recently-review .boxes .box .box-body{
     padding: 2rem;
 }
+/*our-articles starts*/
+.our-articles{
+    background-color: #FBFBFB;
+}
+.our-articles .box{
+    position: relative;
+    border-radius: .5rem;
+    margin: 2rem 0;
+    width: 100%;
+    background-color: transparent;
+}
+.our-articles .box .img{
+    border-radius: .5rem;
+    object-fit: contain;
+    max-width: 100%;
+    width: 100%;
+}
+.our-articles .box .card{
+    position: absolute;
+    bottom: 11%;
+    padding: 2rem;
+    right: 5%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: .5rem;
+    z-index: 2;
+}
+.our-articles .box .card h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.our-articles .box .card p{
+    color: gray;
+    font-size: 17px;
+    margin: 2rem 0;
+    font-weight: 400;
+}
+.our-articles .box .card .card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-articles .box .card .card-footer h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.our-articles .box .card .card-footer .time{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.our-articles .box .card .card-footer .time span{
+    font-size: 10px;
+    font-weight: 400;
+    color: gray;
+}
+.our-articles .box .left{
+    position: absolute;
+    bottom: 16%;
+    padding: 2rem;
+    left: 5%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: .5rem;
+    z-index: 2;
+}
+.our-articles .box .left h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.our-articles .box .left p{
+    color: gray;
+    font-size: 17px;
+    margin: 2rem 0;
+    font-weight: 400;
+}
+.our-articles .box .left .card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-articles .box .left .card-footer h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.our-articles .box .left .card-footer .time{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.our-articles .box .left .card-footer .time span{
+    font-size: 10px;
+    font-weight: 400;
+    color: gray;
+}
+/*subscribe-section starts*/
+.subscribe-section{
+    text-align: center;
+    margin-top: 3rem;
+}
+.subscribe-section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-section form input{
+    width: 70%;
+    border: 1px solid var(--black);
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    padding: 2rem;
+}
+.subscribe-section form input::placeholder{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+.subscribe-section form button{
+    background-color: var(--black);
+    color: whitesmoke;
+    border: 1px solid var(--black);
+    padding: 2rem;
+    height: 59px;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
 /*Media Queries*/
 @media only screen and (max-width: 991px) {
     html {
