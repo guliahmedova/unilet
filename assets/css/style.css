@@ -248,12 +248,12 @@ section {
     line-height: 1.8;
 }
 /*recently-review starts*/
-.recently-review .boxes{
+.recently-review .boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
-.recently-review .boxes .box{
+.recently-review .boxes .box {
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
     margin-bottom: 2rem;
@@ -261,177 +261,177 @@ section {
 .recently-review .boxes .box .main-img {
     width: 100%;
     object-fit: cover;
-    border-top-right-radius: .5rem;
-    border-top-left-radius: .5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
 }
-.recently-review .boxes .box h3{
+.recently-review .boxes .box h3 {
     font-size: 20px;
     font-weight: 500;
     margin: 1rem 0;
 }
-.recently-review .boxes .box .stars{
+.recently-review .boxes .box .stars {
     display: flex;
     display: inline-block;
     flex-direction: column;
 }
-.recently-review .boxes .box .stars .race{
+.recently-review .boxes .box .stars .race {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.recently-review .boxes .box .stars .race ul{
+.recently-review .boxes .box .stars .race ul {
     display: flex;
     list-style: none;
     align-items: center;
     gap: 1rem;
 }
-.recently-review .boxes .box .stars .race span{
+.recently-review .boxes .box .stars .race span {
     font-size: 24px;
     font-weight: 500;
     color: var(--main-blue);
 }
-.recently-review .boxes .box .stars .text{
+.recently-review .boxes .box .stars .text {
     font-size: 10px;
     color: gray;
 }
-.recently-review .boxes .box .box-body .next-btn{
+.recently-review .boxes .box .box-body .next-btn {
     float: right;
     margin-bottom: 2rem;
     cursor: pointer;
 }
-.recently-review .boxes .box .box-body{
+.recently-review .boxes .box .box-body {
     padding: 2rem;
 }
 /*our-articles starts*/
-.our-articles{
-    background-color: #FBFBFB;
+.our-articles {
+    background-color: #fbfbfb;
 }
-.our-articles .box{
+.our-articles .box {
     position: relative;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin: 2rem 0;
     width: 100%;
     background-color: transparent;
 }
-.our-articles .box .img{
-    border-radius: .5rem;
+.our-articles .box .img {
+    border-radius: 0.5rem;
     object-fit: contain;
     max-width: 100%;
     width: 100%;
 }
-.our-articles .box .card{
+.our-articles .box .card {
     position: absolute;
     bottom: 11%;
     padding: 2rem;
     right: 5%;
     background-color: white;
     opacity: 0.9;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     z-index: 2;
 }
-.our-articles .box .card h3{
+.our-articles .box .card h3 {
     font-size: 24px;
     font-weight: 500;
 }
-.our-articles .box .card p{
+.our-articles .box .card p {
     color: gray;
     font-size: 17px;
     margin: 2rem 0;
     font-weight: 400;
 }
-.our-articles .box .card .card-footer{
+.our-articles .box .card .card-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.our-articles .box .card .card-footer h4{
+.our-articles .box .card .card-footer h4 {
     font-size: 14px;
     font-weight: 400;
     margin-left: 1rem;
 }
-.our-articles .box .card .card-footer .time{
+.our-articles .box .card .card-footer .time {
     display: flex;
     align-items: center;
-    gap: .3rem;
+    gap: 0.3rem;
 }
-.our-articles .box .card .card-footer .time span{
+.our-articles .box .card .card-footer .time span {
     font-size: 10px;
     font-weight: 400;
     color: gray;
 }
-.our-articles .box .left{
+.our-articles .box .left {
     position: absolute;
     bottom: 16%;
     padding: 2rem;
     left: 5%;
     background-color: white;
     opacity: 0.9;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     z-index: 2;
 }
-.our-articles .box .left h3{
+.our-articles .box .left h3 {
     font-size: 24px;
     font-weight: 500;
 }
-.our-articles .box .left p{
+.our-articles .box .left p {
     color: gray;
     font-size: 17px;
     margin: 2rem 0;
     font-weight: 400;
 }
-.our-articles .box .left .card-footer{
+.our-articles .box .left .card-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.our-articles .box .left .card-footer h4{
+.our-articles .box .left .card-footer h4 {
     font-size: 14px;
     font-weight: 400;
     margin-left: 1rem;
 }
-.our-articles .box .left .card-footer .time{
+.our-articles .box .left .card-footer .time {
     display: flex;
     align-items: center;
-    gap: .3rem;
+    gap: 0.3rem;
 }
-.our-articles .box .left .card-footer .time span{
+.our-articles .box .left .card-footer .time span {
     font-size: 10px;
     font-weight: 400;
     color: gray;
 }
 /*subscribe-section starts*/
-.subscribe-section{
+.subscribe-section {
     text-align: center;
     margin-top: 3rem;
 }
-.subscribe-section form{
+.subscribe-section form {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.subscribe-section form input{
+.subscribe-section form input {
     width: 70%;
     border: 1px solid var(--black);
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     padding: 2rem;
 }
-.subscribe-section form input::placeholder{
+.subscribe-section form input::placeholder {
     color: gray;
     font-size: 14px;
     font-weight: 400;
 }
-.subscribe-section form button{
+.subscribe-section form button {
     background-color: var(--black);
     color: whitesmoke;
     border: 1px solid var(--black);
     padding: 2rem;
     height: 59px;
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 /*Review-a-property-hero Starts*/
-.review-a-property-hero{
+.review-a-property-hero {
     background-image: url("../images/reviewsPHero.svg");
     min-height: 90vh;
     background-attachment: fixed;
@@ -443,47 +443,185 @@ section {
     flex-direction: column;
     justify-content: center;
 }
-.review-a-property-hero h1{
+.review-a-property-hero h1 {
     font-size: 50px;
     font-weight: 700;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
     color: var(--main-blue);
 }
-.review-a-property-hero span{
+.review-a-property-hero span {
     font-size: 24px;
     color: var(--black);
     font-weight: 600;
     line-height: 1.8;
     text-transform: lowercase;
 }
-.review-a-property-hero form{
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-top: 3rem;
+.review-a-property-hero form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
 }
-.review-a-property-hero form label{
+.review-a-property-hero form label {
     font-size: 17px;
     font-weight: 600;
     width: 10%;
 }
-.review-a-property-hero form input{
+.review-a-property-hero form input {
     border: 1px solid var(--black);
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     padding: 2rem;
     width: 25%;
 }
-.review-a-property-hero form button{
+.review-a-property-hero form button {
     background-color: var(--black);
     color: whitesmoke;
     border: 1px solid var(--black);
     padding: 2rem;
     height: 59px;
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     width: 8%;
+}
+.reviews-properties .filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews-properties .filter-container form h3 {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(70, 69, 69);
+    margin-top: 2rem;
+}
+.reviews-properties .filter-container form {
+    width: 100%;
+}
+.reviews-properties .filter-container form input {
+    border: 0.1px solid var(--black);
+    color: gray;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    width: 35%;
+    font-size: 1.5rem;
+}
+.reviews-properties .filter-container form button {
+    background-color: var(--black);
+    color: var(--light-bg);
+    border-radius: 0.5rem;
+    height: 59px;
+    width: 9%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.reviews-properties .filter-container .right-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.reviews-properties .filter-container .right-side .label {
+    text-transform: lowercase;
+    font-size: 17px;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+.reviews-properties .dropdown {
+    min-width: 19em;
+    position: relative;
+    margin-top: 7rem;
+    font-size: 17px;
+}
+.reviews-properties .dropdown * {
+    box-sizing: border-box;
+}
+.reviews-properties .select {
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: ease-in-out all 0.3s;
+}
+.reviews-properties .select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.reviews-properties .caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid var(--black);
+    transition: 0.3s;
+}
+.reviews-properties .caret-rotate {
+    transform: rotate(180deg);
+}
+.reviews-properties .menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: var(--light-bg);
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: var(--black);
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.reviews-properties .menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.reviews-properties .menu li:hover {
+    background: gray;
+}
+.reviews-properties .active {
+    background: gray;
+}
+.reviews-properties .menu-open {
+    display: block;
+    opacity: 1;
+}
+.recently-review .pagination {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 2rem 0;
+}
+.recently-review .pagination a {
+    color: black;
+    float: left;
+    font-size: 2rem;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.recently-review .pagination a.active {
+    background-color: var(--main-blue);
+    color: white;
+    border-radius: 50px;
+}
+.recently-review .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
 }
 /*Media Queries*/
 @media only screen and (max-width: 991px) {
@@ -502,7 +640,7 @@ section {
         align-items: center;
         margin: 15rem 0;
     }
-    .recently-review .boxes{
+    .recently-review .boxes {
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
     }
@@ -532,7 +670,7 @@ section {
     .header .flex .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
-    .recently-review .boxes{
+    .recently-review .boxes {
         grid-template-columns: repeat(1, 1fr);
         gap: 3rem;
     }
