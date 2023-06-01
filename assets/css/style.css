@@ -644,6 +644,15 @@ section {
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
     }
+    .reviews-properties .filter-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .reviews-properties .filter-container form {
+        width: 100%;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 768px) {
     #menu-btn {
